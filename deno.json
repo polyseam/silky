@@ -1,0 +1,8 @@
+{
+  "version": "1.0.0",
+  "tasks": {
+    "start": "deno run main.ts",
+    "test": "deno test",
+    "build": "deno fmt && deno lint"
+  }
+}
