@@ -1,6 +1,20 @@
-# silky
+<div align="center">
+  <br>
+  <h2>silky</h2>
+</div>
+<hr/>
+<p align="center">
+  <a href="https://github.com/polyseam/silky/actions/workflows/main-latest.yaml">
+    <img src="https://github.com/polyseam/silky/actions/workflows/main-latest.yaml/badge.svg" alt="main" style="max-width: 100%;">
+  </a>
+  <img src="https://img.shields.io/github/languages/code-size/polyseam/silky" alt="GitHub code size in bytes">
+  <img src="https://img.shields.io/github/commit-activity/w/polyseam/silky" alt="GitHub commit activity">
+  <a href="https://github.com/polyseam/silky/issues">
+    <img src="https://img.shields.io/github/issues/polyseam/silky" alt="GitHub issues">
+  </a>
+</p>
 
-## why?
+### why?
 
 This is a helper to create and manage x509 Keypairs.
 

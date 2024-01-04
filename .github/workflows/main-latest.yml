@@ -3,7 +3,7 @@ on:
     branches:    
       - main
 jobs:
-  check-pr:
+  check-main:
     runs-on: ubuntu-20.04
     steps:
       - name: checkout
