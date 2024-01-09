@@ -11,16 +11,26 @@ type SelfSignedX509KeyPair = {
   privateKey: string;
 };
 
+type X509Algo = {
+  name: string;
+  hash: string;
+  publicExponent: Uint8Array;
+  modulusLength: number;
+};
+
+const DEFAULT_ALGO: X509Algo = {
+  name: "RSASSA-PKCS1-v1_5",
+  hash: "SHA-256",
+  publicExponent: new Uint8Array([1, 0, 1]),
+  modulusLength: 4096,
+};
+
 export async function generateSelfSignedX509KeyPair(
   name: string,
+  algo?: Partial<X509Algo>,
 ): Promise<SelfSignedX509KeyPair> {
   // Generate RSA key pair
-  const alg = {
-    name: "RSASSA-PKCS1-v1_5",
-    hash: "SHA-256",
-    publicExponent: new Uint8Array([1, 0, 1]),
-    modulusLength: 4096,
-  };
+  const alg = { ...DEFAULT_ALGO, ...algo };
 
   // ⚠️ this crypto api is named "subtle" because it is sensitive to subtle and complex implementation details
   const keys = await crypto.subtle.generateKey(alg, true, ["sign", "verify"]);
