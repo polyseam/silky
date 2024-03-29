@@ -1,8 +1,4 @@
-import {
-  Name,
-  PemConverter,
-  X509CertificateGenerator,
-} from "npm:@peculiar/x509";
+import { Name, PemConverter, X509CertificateGenerator } from "@peculiar/x509";
 
 const x509 = { Name, X509CertificateGenerator, PemConverter };
 

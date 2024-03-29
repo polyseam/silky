@@ -4,7 +4,8 @@
     "specifiers": {
       "jsr:@std/assert@0.210.0": "jsr:@std/assert@0.210.0",
       "jsr:@std/fmt@^0.210.0": "jsr:@std/fmt@0.210.0",
-      "npm:@peculiar/x509": "npm:@peculiar/x509@1.9.6"
+      "npm:@peculiar/x509": "npm:@peculiar/x509@1.9.6",
+      "npm:@peculiar/x509@1.9.7": "npm:@peculiar/x509@1.9.7"
     },
     "jsr": {
       "@std/assert@0.210.0": {
@@ -117,6 +118,22 @@
       },
       "@peculiar/x509@1.9.6": {
         "integrity": "sha512-BQhsxZa8SMJ8rwKJMb6VrdZk3XXE/5ab+JRr9psxHI9dw9gZrR3BsWrL3EgLoxrqOd2nP/mWVSSJGlA76aAbRw==",
+        "dependencies": {
+          "@peculiar/asn1-cms": "@peculiar/asn1-cms@2.3.8",
+          "@peculiar/asn1-csr": "@peculiar/asn1-csr@2.3.8",
+          "@peculiar/asn1-ecc": "@peculiar/asn1-ecc@2.3.8",
+          "@peculiar/asn1-pkcs9": "@peculiar/asn1-pkcs9@2.3.8",
+          "@peculiar/asn1-rsa": "@peculiar/asn1-rsa@2.3.8",
+          "@peculiar/asn1-schema": "@peculiar/asn1-schema@2.3.8",
+          "@peculiar/asn1-x509": "@peculiar/asn1-x509@2.3.8",
+          "pvtsutils": "pvtsutils@1.3.5",
+          "reflect-metadata": "reflect-metadata@0.2.1",
+          "tslib": "tslib@2.6.2",
+          "tsyringe": "tsyringe@4.8.0"
+        }
+      },
+      "@peculiar/x509@1.9.7": {
+        "integrity": "sha512-O+fR1ge6U8upO52q5b3d4tF4SxUdK4IQ0y++Z/Wlqq+ySZUf+deHnbMlDB1YZsIQ/DXU0i5M7Y1DyF5kwpXouQ==",
         "dependencies": {
           "@peculiar/asn1-cms": "@peculiar/asn1-cms@2.3.8",
           "@peculiar/asn1-csr": "@peculiar/asn1-csr@2.3.8",
