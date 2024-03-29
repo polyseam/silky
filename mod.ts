@@ -38,7 +38,7 @@ export async function generateSelfSignedX509KeyPair(
   // Create X.509 certificate
   const cert = await x509.X509CertificateGenerator.createSelfSigned({
     serialNumber: "01",
-    name: new x509.Name(name), // risk
+    name: new x509.Name(name),
     notBefore: new Date(),
     notAfter: new Date(new Date().setFullYear(new Date().getFullYear() + 1)), // Valid for 1 year
     signingAlgorithm: alg,
