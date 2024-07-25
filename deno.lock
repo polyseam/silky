@@ -4,8 +4,7 @@
     "specifiers": {
       "jsr:@std/assert@0.210.0": "jsr:@std/assert@0.210.0",
       "jsr:@std/fmt@^0.210.0": "jsr:@std/fmt@0.210.0",
-      "npm:@peculiar/x509@1.9.7": "npm:@peculiar/x509@1.9.7",
-      "npm:@peculiar/x509@^1.9.7": "npm:@peculiar/x509@1.9.7"
+      "npm:@peculiar/x509@1.11.0": "npm:@peculiar/x509@1.11.0"
     },
     "jsr": {
       "@std/assert@0.210.0": {
@@ -26,7 +25,7 @@
           "@peculiar/asn1-x509": "@peculiar/asn1-x509@2.3.8",
           "@peculiar/asn1-x509-attr": "@peculiar/asn1-x509-attr@2.3.8",
           "asn1js": "asn1js@3.0.5",
-          "tslib": "tslib@2.6.2"
+          "tslib": "tslib@2.6.3"
         }
       },
       "@peculiar/asn1-csr@2.3.8": {
@@ -35,7 +34,7 @@
           "@peculiar/asn1-schema": "@peculiar/asn1-schema@2.3.8",
           "@peculiar/asn1-x509": "@peculiar/asn1-x509@2.3.8",
           "asn1js": "asn1js@3.0.5",
-          "tslib": "tslib@2.6.2"
+          "tslib": "tslib@2.6.3"
         }
       },
       "@peculiar/asn1-ecc@2.3.8": {
@@ -44,7 +43,7 @@
           "@peculiar/asn1-schema": "@peculiar/asn1-schema@2.3.8",
           "@peculiar/asn1-x509": "@peculiar/asn1-x509@2.3.8",
           "asn1js": "asn1js@3.0.5",
-          "tslib": "tslib@2.6.2"
+          "tslib": "tslib@2.6.3"
         }
       },
       "@peculiar/asn1-pfx@2.3.8": {
@@ -55,7 +54,7 @@
           "@peculiar/asn1-rsa": "@peculiar/asn1-rsa@2.3.8",
           "@peculiar/asn1-schema": "@peculiar/asn1-schema@2.3.8",
           "asn1js": "asn1js@3.0.5",
-          "tslib": "tslib@2.6.2"
+          "tslib": "tslib@2.6.3"
         }
       },
       "@peculiar/asn1-pkcs8@2.3.8": {
@@ -64,7 +63,7 @@
           "@peculiar/asn1-schema": "@peculiar/asn1-schema@2.3.8",
           "@peculiar/asn1-x509": "@peculiar/asn1-x509@2.3.8",
           "asn1js": "asn1js@3.0.5",
-          "tslib": "tslib@2.6.2"
+          "tslib": "tslib@2.6.3"
         }
       },
       "@peculiar/asn1-pkcs9@2.3.8": {
@@ -77,7 +76,7 @@
           "@peculiar/asn1-x509": "@peculiar/asn1-x509@2.3.8",
           "@peculiar/asn1-x509-attr": "@peculiar/asn1-x509-attr@2.3.8",
           "asn1js": "asn1js@3.0.5",
-          "tslib": "tslib@2.6.2"
+          "tslib": "tslib@2.6.3"
         }
       },
       "@peculiar/asn1-rsa@2.3.8": {
@@ -86,7 +85,7 @@
           "@peculiar/asn1-schema": "@peculiar/asn1-schema@2.3.8",
           "@peculiar/asn1-x509": "@peculiar/asn1-x509@2.3.8",
           "asn1js": "asn1js@3.0.5",
-          "tslib": "tslib@2.6.2"
+          "tslib": "tslib@2.6.3"
         }
       },
       "@peculiar/asn1-schema@2.3.8": {
@@ -94,7 +93,7 @@
         "dependencies": {
           "asn1js": "asn1js@3.0.5",
           "pvtsutils": "pvtsutils@1.3.5",
-          "tslib": "tslib@2.6.2"
+          "tslib": "tslib@2.6.3"
         }
       },
       "@peculiar/asn1-x509-attr@2.3.8": {
@@ -103,7 +102,7 @@
           "@peculiar/asn1-schema": "@peculiar/asn1-schema@2.3.8",
           "@peculiar/asn1-x509": "@peculiar/asn1-x509@2.3.8",
           "asn1js": "asn1js@3.0.5",
-          "tslib": "tslib@2.6.2"
+          "tslib": "tslib@2.6.3"
         }
       },
       "@peculiar/asn1-x509@2.3.8": {
@@ -111,13 +110,13 @@
         "dependencies": {
           "@peculiar/asn1-schema": "@peculiar/asn1-schema@2.3.8",
           "asn1js": "asn1js@3.0.5",
-          "ipaddr.js": "ipaddr.js@2.1.0",
+          "ipaddr.js": "ipaddr.js@2.2.0",
           "pvtsutils": "pvtsutils@1.3.5",
-          "tslib": "tslib@2.6.2"
+          "tslib": "tslib@2.6.3"
         }
       },
-      "@peculiar/x509@1.9.6": {
-        "integrity": "sha512-BQhsxZa8SMJ8rwKJMb6VrdZk3XXE/5ab+JRr9psxHI9dw9gZrR3BsWrL3EgLoxrqOd2nP/mWVSSJGlA76aAbRw==",
+      "@peculiar/x509@1.11.0": {
+        "integrity": "sha512-8rdxE//tsWLb2Yo2TYO2P8gieStbrHK/huFMV5PPfwX8I5HmtOus+Ox6nTKrPA9o+WOPaa5xKenee+QdmHBd5g==",
         "dependencies": {
           "@peculiar/asn1-cms": "@peculiar/asn1-cms@2.3.8",
           "@peculiar/asn1-csr": "@peculiar/asn1-csr@2.3.8",
@@ -127,24 +126,8 @@
           "@peculiar/asn1-schema": "@peculiar/asn1-schema@2.3.8",
           "@peculiar/asn1-x509": "@peculiar/asn1-x509@2.3.8",
           "pvtsutils": "pvtsutils@1.3.5",
-          "reflect-metadata": "reflect-metadata@0.2.1",
-          "tslib": "tslib@2.6.2",
-          "tsyringe": "tsyringe@4.8.0"
-        }
-      },
-      "@peculiar/x509@1.9.7": {
-        "integrity": "sha512-O+fR1ge6U8upO52q5b3d4tF4SxUdK4IQ0y++Z/Wlqq+ySZUf+deHnbMlDB1YZsIQ/DXU0i5M7Y1DyF5kwpXouQ==",
-        "dependencies": {
-          "@peculiar/asn1-cms": "@peculiar/asn1-cms@2.3.8",
-          "@peculiar/asn1-csr": "@peculiar/asn1-csr@2.3.8",
-          "@peculiar/asn1-ecc": "@peculiar/asn1-ecc@2.3.8",
-          "@peculiar/asn1-pkcs9": "@peculiar/asn1-pkcs9@2.3.8",
-          "@peculiar/asn1-rsa": "@peculiar/asn1-rsa@2.3.8",
-          "@peculiar/asn1-schema": "@peculiar/asn1-schema@2.3.8",
-          "@peculiar/asn1-x509": "@peculiar/asn1-x509@2.3.8",
-          "pvtsutils": "pvtsutils@1.3.5",
-          "reflect-metadata": "reflect-metadata@0.2.1",
-          "tslib": "tslib@2.6.2",
+          "reflect-metadata": "reflect-metadata@0.2.2",
+          "tslib": "tslib@2.6.3",
           "tsyringe": "tsyringe@4.8.0"
         }
       },
@@ -153,33 +136,33 @@
         "dependencies": {
           "pvtsutils": "pvtsutils@1.3.5",
           "pvutils": "pvutils@1.1.3",
-          "tslib": "tslib@2.6.2"
+          "tslib": "tslib@2.6.3"
         }
       },
-      "ipaddr.js@2.1.0": {
-        "integrity": "sha512-LlbxQ7xKzfBusov6UMi4MFpEg0m+mAm9xyNGEduwXMEDuf4WfzB/RZwMVYEd7IKGvh4IUkEXYxtAVu9T3OelJQ==",
+      "ipaddr.js@2.2.0": {
+        "integrity": "sha512-Ag3wB2o37wslZS19hZqorUnrnzSkpOVy+IiiDEiTqNubEYpYuHWIf6K4psgN2ZWKExS4xhVCrRVfb/wfW8fWJA==",
         "dependencies": {}
       },
       "pvtsutils@1.3.5": {
         "integrity": "sha512-ARvb14YB9Nm2Xi6nBq1ZX6dAM0FsJnuk+31aUp4TrcZEdKUlSqOqsxJHUPJDNE3qiIp+iUPEIeR6Je/tgV7zsA==",
         "dependencies": {
-          "tslib": "tslib@2.6.2"
+          "tslib": "tslib@2.6.3"
         }
       },
       "pvutils@1.1.3": {
         "integrity": "sha512-pMpnA0qRdFp32b1sJl1wOJNxZLQ2cbQx+k6tjNtZ8CpvVhNqEPRgivZ2WOUev2YMajecdH7ctUPDvEe87nariQ==",
         "dependencies": {}
       },
-      "reflect-metadata@0.2.1": {
-        "integrity": "sha512-i5lLI6iw9AU3Uu4szRNPPEkomnkjRTaVt9hy/bn5g/oSzekBSMeLZblcjP74AW0vBabqERLLIrz+gR8QYR54Tw==",
+      "reflect-metadata@0.2.2": {
+        "integrity": "sha512-urBwgfrvVP/eAyXx4hluJivBKzuEbSQs9rKWCrCkbSxNv8mxPcUZKeuoF3Uy4mJl3Lwprp6yy5/39VWigZ4K6Q==",
         "dependencies": {}
       },
       "tslib@1.14.1": {
         "integrity": "sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==",
         "dependencies": {}
       },
-      "tslib@2.6.2": {
-        "integrity": "sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==",
+      "tslib@2.6.3": {
+        "integrity": "sha512-xNvxJEOUiWPGhUuUdQgAJPKOOJfGnIyKySOc09XkKsgdUV/3E2zvwZYdejjmRgPCgcym1juLH3226yA7sEFJKQ==",
         "dependencies": {}
       },
       "tsyringe@4.8.0": {
@@ -190,44 +173,11 @@
       }
     }
   },
-  "remote": {
-    "https://deno.land/std@0.210.0/assert/_constants.ts": "8a9da298c26750b28b326b297316cdde860bc237533b07e1337c021379e6b2a9",
-    "https://deno.land/std@0.210.0/assert/_diff.ts": "2c9371f17cf08cbb843c924bc31ca77af422ec4fe162f73d42c651d547573fa8",
-    "https://deno.land/std@0.210.0/assert/_format.ts": "335ce8e15c65b679ad142dbc9e5e97e5d58602c39dd3c9175cef6c85fe22d6d5",
-    "https://deno.land/std@0.210.0/assert/assert.ts": "e265ad50a9341f3b40e51dd4cb41ab253d976943ba78a977106950e52e0302ab",
-    "https://deno.land/std@0.210.0/assert/assert_almost_equals.ts": "a70d637856e1c6128dc733346d32aa73c67058489495116ca85091c39a60c767",
-    "https://deno.land/std@0.210.0/assert/assert_array_includes.ts": "59d005d8897c1fbcbd5792170833f13a867f6a5ecd5a6b34a3d86b4b430de63c",
-    "https://deno.land/std@0.210.0/assert/assert_equals.ts": "991b0c2b437a015d623654f758e48bfd931068211a52e8131b397cdf005c595f",
-    "https://deno.land/std@0.210.0/assert/assert_exists.ts": "f24ecb0d3febad358a6cee235f012551077e07692517ebfe0630a561ba40a703",
-    "https://deno.land/std@0.210.0/assert/assert_false.ts": "99cf237fe374cabf57072d2fb41b3eaff389029f850fbb96f643c875792f10ce",
-    "https://deno.land/std@0.210.0/assert/assert_greater.ts": "e0bba9ac76a780573a864ab6eeb8b9fd71435b750bdd36d56a270e22ab9a79d9",
-    "https://deno.land/std@0.210.0/assert/assert_greater_or_equal.ts": "aea1c7dc868926ba55f1e59f8c3560bb44706b5e3b6b009453ee4064eecf6746",
-    "https://deno.land/std@0.210.0/assert/assert_instance_of.ts": "7c093d36b1a86666d5a60a8c290c91a51a627153b821a5a4dc40b24cab69f1e7",
-    "https://deno.land/std@0.210.0/assert/assert_is_error.ts": "a8a758581661edec514c453910bee2f9c91b1346a515c58404963b130d81cd80",
-    "https://deno.land/std@0.210.0/assert/assert_less.ts": "855aa58e49afa6a9e825f1abcd5947dc789c5878fc1b6f48b8a08115d48da32b",
-    "https://deno.land/std@0.210.0/assert/assert_less_or_equal.ts": "2ae5246bd0e83da26e5c8e2815d1493252f71f7dc02afb83dc2fc0e0fb0bd894",
-    "https://deno.land/std@0.210.0/assert/assert_match.ts": "e541a9769cf5726312ff9e15031e2faa2df3c59fbdc5573c8758b1f4668ccc62",
-    "https://deno.land/std@0.210.0/assert/assert_not_equals.ts": "6bce4b28f3316029c0aef107f8390796798835c382d31c1004160baef0b80db0",
-    "https://deno.land/std@0.210.0/assert/assert_not_instance_of.ts": "866243fd28bc6665e2ffcc027a9df1d2a69cb644aef1e9b8d1ce34377c6b8a84",
-    "https://deno.land/std@0.210.0/assert/assert_not_match.ts": "59707eceb0d2b16d6892fbf92ec86f92fd76fcfc55f8b61508299db7d2972cab",
-    "https://deno.land/std@0.210.0/assert/assert_not_strict_equals.ts": "c84b8e229450e8dfc44b9910d602788313ff7333d67d5bd8528371567b6a3632",
-    "https://deno.land/std@0.210.0/assert/assert_object_match.ts": "ebeff248d48e5810f787e8742ae4f6b39904f4640edc2f69796596ceb6dbcdf8",
-    "https://deno.land/std@0.210.0/assert/assert_rejects.ts": "f7e83272d816e1b39710012a0597ed950db2de6b193adcc5e50ddbcd9e177767",
-    "https://deno.land/std@0.210.0/assert/assert_strict_equals.ts": "4007dabef1c2e9d6f1bb0e948ba7ba99ec9b1bee97ba34d67f7c10e7e5d794f7",
-    "https://deno.land/std@0.210.0/assert/assert_string_includes.ts": "108a30d9348e5ff7a8b0b7cc836cf0a8cff27d5b33e861b8c56b52cc60b8219a",
-    "https://deno.land/std@0.210.0/assert/assert_throws.ts": "a8767e6a06e94bac42ca9eebdad5d4e2decbc0c48bc892da7e06aa1fe0b388ba",
-    "https://deno.land/std@0.210.0/assert/assertion_error.ts": "26ed1863d905005f00785c89750c001c3522c5417e4f58f95044b8143cfc1593",
-    "https://deno.land/std@0.210.0/assert/equal.ts": "6f81c8a3b12c08bdc3510c8a1293b4db1c083692219d7e3828d2234b448d3d3d",
-    "https://deno.land/std@0.210.0/assert/fail.ts": "f56fc64f9a141f98c1be5ff1005ddf158db888b7b206510e955bb3fedc69021c",
-    "https://deno.land/std@0.210.0/assert/mod.ts": "37c49a26aae2b254bbe25723434dc28cd7532e444cf0b481a97c045d110ec085",
-    "https://deno.land/std@0.210.0/assert/unimplemented.ts": "4e3e504792c87c485dbc5f4020489d8806ef697741403af2008dfa7b5a4711e8",
-    "https://deno.land/std@0.210.0/assert/unreachable.ts": "1af8c99421cc5fb7332454b2b9eca074a4e394895a180bc837750dedcca75338",
-    "https://deno.land/std@0.210.0/fmt/colors.ts": "2685c524bef9b16b3059a417daf6860c754eb755e19e812762ef5dff62f24481"
-  },
+  "remote": {},
   "workspace": {
     "dependencies": [
       "jsr:@std/assert@0.210.0",
-      "npm:@peculiar/x509@^1.9.7"
+      "npm:@peculiar/x509@1.11.0"
     ]
   }
 }
